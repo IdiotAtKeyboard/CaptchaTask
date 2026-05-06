@@ -1,0 +1,23 @@
+services:
+  data-service:
+    build: ./data-service
+    ports:
+      - "5000:5000"
+    networks:
+      - test-network
+
+  tests:
+    build: .
+    depends_on:
+      - data-service
+    environment:
+      - DATA_SERVICE_URL=http://data-service:5000
+    networks:
+      - test-network
+    volumes:
+      - ./allure-results:/app/allure-results
+
+networks:
+  test-network:
+    driver: bridge
+

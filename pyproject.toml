@@ -10,6 +10,9 @@ python = "^3.11"
 playwright = "*"
 pytest-playwright = "*"
 allure-pytest = "*"
+requests = "*"
+docker = "^7.1.0"
+taskipy = "*"
 
 [build-system]
 requires = ["poetry-core"]
@@ -18,3 +21,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 addopts = "-v --alluredir=allure-results"
 pythonpath = ["."]
+[tool.taskipy.tasks]
+up = "docker compose up --build"
+down = "docker compose down"
+logs = "docker compose logs -f tests"

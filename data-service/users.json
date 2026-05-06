@@ -1,0 +1,73 @@
+[
+  {
+    "id": "alice-acme-corp",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "company": "Acme Corp",
+    "labels": ["US", "female", "vip", "manager", "verified"]
+  },
+  {
+    "id": "bob-techstart",
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "company": "TechStart Inc",
+    "labels": ["US", "male", "founder", "important", "premium"]
+  },
+  {
+    "id": "jo-dev",
+    "name": "Jo",
+    "email": "jo@dev.io",
+    "company": "Dev",
+    "labels": ["CA", "other", "developer", "early_adopter"]
+  },
+  {
+    "id": "christopher-international",
+    "name": "Christopher Alexander Montgomery",
+    "email": "christopher.montgomery@verylongemaildomainexample.com",
+    "company": "International Business Solutions Corporation Ltd",
+    "labels": ["GB", "male", "enterprise", "verified", "premium", "international"]
+  },
+  {
+    "id": "emma-startup",
+    "name": "Emma Wilson",
+    "email": "emma.wilson.2024@startupventures.com",
+    "company": "StartUp Ventures",
+    "labels": ["AU", "female", "startup", "investor", "partner", "verified"]
+  },
+  {
+    "id": "michael-consulting",
+    "name": "Michael David Brown Jr.",
+    "email": "m.brown@globalconsulting.org",
+    "company": "Global Management Consulting Group",
+    "labels": ["DE", "male", "consultant", "verified", "vip", "enterprise"]
+  },
+  {
+    "id": "sofia-tech",
+    "name": "Sofia Rodriguez",
+    "email": "sofia@tech.ai",
+    "company": "Tech AI Solutions",
+    "labels": ["ES", "female", "tech", "ai_specialist", "verified", "innovator"]
+  },
+  {
+    "id": "james-enterprises",
+    "name": "James Patrick O'Connor",
+    "email": "j.oconnor@enterprises.co.uk",
+    "company": "Enterprise Digital Transformation Services",
+    "labels": ["IE", "male", "enterprise", "cto", "premium", "executive"]
+  },
+  {
+    "id": "lisa-marketing",
+    "name": "Lisa Chen",
+    "email": "lisa.chen@marketing.biz",
+    "company": "Marketing Pro",
+    "labels": ["SG", "female", "marketing", "influencer", "verified"]
+  },
+  {
+    "id": "alexander-network",
+    "name": "Alexander Dimitri Petrov Volkov",
+    "email": "a.petrov.volkov@networkinfrastructuresolutions.io",
+    "company": "Network Infrastructure & Cloud Services Inc",
+    "labels": ["RU", "male", "infrastructure", "verified", "premium", "enterprise", "architect"]
+  }
+]
+
