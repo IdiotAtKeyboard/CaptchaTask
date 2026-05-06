@@ -23,4 +23,4 @@ class ContactFormPage:
         # Scroll captcha into view so it appears in the final screenshot
         self._captcha_error.scroll_into_view_if_needed()
         # Assert the reCAPTCHA container has the error class applied
-        expect(self._captcha_error).to_be_visible(timeout=5000)
+        expect(self._captcha_error).to_be_visible(timeout=4000)
